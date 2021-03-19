@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="main">
+<img class="rocket-left" src="images/rocket.png" width="50" height="50">
+Calculator
+<img class="rocket-right" src="images/rocket.png" width="50" height="50">
+</div>
+
+<!-- 入力ボックス #1 -->
+<p class="input-box"><input type="text" id="input1"></p>
+
+<!-- 入力ボックス #2 -->
+<p class="input-box"><input type="text" id="input2"></p>
+
+<!-- + - x  ÷ ボタン -->
+<p class="box-plus"><button onclick="btn1();">
+    <img src="images/plus.png" width="20" height="20">
+</button></p>
+<p class="box-minus"><button onclick="btn2();">
+    <img src="images/minus.png" width="20" height="20">
+</button></p>
+<p class="box-mul"><button onclick="btn3();">
+    <img src="images/mul.png" width="20" height="20">
+</button></p>
+<p class="box-div"><button onclick="btn4();">
+    <img src="images/div.png" width="20" height="20">
+</button></p>
+
+<!-- 計算結果のボックス -->
+<p id="box-total">0</p>
+<div class="pic-box">
+<img class="fire-left" src="images/fire-left.png" width="80" height="80">
+<img class="fire" src="images/fire.png" width="80" height="80">
+<img class="fire-right" src="images/fire-right.png" width="80" height="80"></div>
+</body>
+</html>

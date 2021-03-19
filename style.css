@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.main {
+  font-family: "Big Shoulders Stencil Text", cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
+.rocket-left {
+  margin-right: 10px;
+}
+
+#input1 {
+  width: 200px;
+  padding: 3px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  border: 3px solid gray;
+  text-align: right;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4); 
+}
+
+#input1:hover {
+  background-color: rgb(207, 204, 204);
+}
+
+#input2 {
+  width: 200px;
+  padding: 3px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  border: 3px solid gray;
+  text-align: right;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4); 
+}
+
+#input2:hover {
+  background-color: rgb(207, 204, 204);
+}
+
+button {
+  border: 3px solid gray;
+  padding: 15px 10px;
+  width: 60px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4); 
+}
+
+button:hover {
+  background-color: rgb(179, 177, 177);
+}
+
+#box-total {
+  width: 200px;
+  padding: 3px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  border: 3px solid gray;
+  text-align: right;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4); 
+}
+
+#box4 {
+  text-align: right;
+}
+
+#box1:hover {
+  background-color: rgb(207, 204, 204);
+}
+
+/* 下部の火 */
+.pic-box {
+  display: flex;
+  display: table;
+  margin: auto;
+}
+
+.fire,
+.fire-left,
+.fire-right {
+  margin-top: 10px;
+}
+
+/* レスポンシブ */
+@media screen and (min-width:600px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
